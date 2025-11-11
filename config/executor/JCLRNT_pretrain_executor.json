@@ -1,0 +1,15 @@
+{
+  "batch_size":16,
+  "num_workers": 0,
+  "collate_func": "JCLRNT_collate_fn",
+  "loss_name": "loss_transmit",
+  "metrics_eval": "transfer_loss",
+  "loss_beta": 30,
+  "learner": "Adam",
+  "learning_rate": 1e-3,
+  "lr_weight_decay": 1e-6,
+  "lr_eps": 1e-8,
+  "patience": 3,
+  "num_epochs": 10,
+  "num_runs": 1
+}

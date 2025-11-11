@@ -1,0 +1,21 @@
+{
+  "lat_embed": 128,
+  "lon_embed": 128,
+  "sent_emb": 0,
+  "temp": 0.05,
+  "pooler_type": "cls_after_pooler",
+  "hidden_size": 768,
+  "num_hidden_layers": 4,
+  "num_attention_heads": 4,
+  "intermediate_size": 1024,
+  "time_dim": 64,
+  "out_dim": 768,
+  "seg_pad_rate": 0.2,
+  "do_hard_neg": 1,
+  "do_mlm": 1,
+  "mlm_weight": 1.0,
+  "mlm_probability": 0.4,
+  "hard_negative_weight": 0.5,
+  "mlp_only_train": 1,
+  "gps_point_dropout": 0.2
+}

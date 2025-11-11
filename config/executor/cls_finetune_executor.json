@@ -1,0 +1,15 @@
+{
+  "batch_size": 128,
+  "num_workers": 0,
+  "loss_name": "CrossEntropyLoss",
+  "learner": "Adam",
+  "learning_rate": 3e-4,
+  "lr_weight_decay": 5e-3,
+  "lr_eps": 1e-8,
+  "patience": 10,
+  "num_epochs": 200,
+  "test_interval_epochs": 10,
+  "metrics_train": "calculate_multi_classification_acc_metrics",
+  "metrics_eval": "calculate_multi_classification_sum_metrics",
+  "num_runs": 3
+}

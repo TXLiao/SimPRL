@@ -1,0 +1,16 @@
+{
+  "batch_size": 128,
+  "num_workers": 2,
+  "loss_name": "mape",
+  "learner": "Adam",
+  "learning_rate": 1e-5,
+  "lr_weight_decay": 0,
+  "lr_eps": 1e-8,
+  "lr_bata": 0.7,
+  "patience": 20,
+  "num_epochs": 200,
+  "test_interval_epochs": 10,
+  "metrics_train": "calculate_path_rank_pre_metrics",
+  "metrics_eval": "calculate_path_rank_sum_metrics",
+  "num_runs": 3
+}

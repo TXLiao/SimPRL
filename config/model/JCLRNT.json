@@ -1,0 +1,10 @@
+{
+  "embed_size": 128,
+  "hidden_size": 128,
+  "drop_rate": 0.2,
+  "drop_edge_rate": 0.2,
+  "drop_road_rate": 0.2,
+  "activation": "relu",
+  "loss_measure": "jsd",
+  "lambda_st": 0.8
+}

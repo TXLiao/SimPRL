@@ -1,0 +1,16 @@
+{
+  "batch_size": 64,
+  "num_workers": 2,
+  "loss_name": "smoothL1",
+  "loss_beta": 600,
+  "learner": "Adam",
+  "learning_rate": 1e-4,
+  "lr_weight_decay": 0,
+  "lr_eps": 1e-8,
+  "lr_bata": 0.7,
+  "patience": 30,
+  "num_epochs": 300,
+  "test_interval_epochs": 10,
+  "metrics_eval": "calculate_regression_metrics",
+  "num_runs": 3
+}

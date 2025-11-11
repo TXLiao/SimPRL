@@ -1,0 +1,23 @@
+{
+  "rrl_pretrain": {
+    "SimPRL": {
+      "dataset_config": "dataset_pretrain",
+      "executor_config": "SimPRL_pretrain_executor",
+      "model_config": "SimPRL"
+    }
+  },
+  "reg_finetune": {
+    "MLP_TTE": {
+      "dataset_config": "dataset_finetune",
+      "executor_config": "reg_finetune_executor",
+      "model_config": "MLPTTE4SimPRL"
+    }
+  },
+  "cls_finetune": {
+    "MLP_CLS": {
+      "dataset_config": "dataset_finetune",
+      "executor_config": "cls_finetune_executor",
+      "model_config": "MLPCLS4SimPRL"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "batch_size":10,
+  "num_workers": 3,
+  "collate_func": "SimPRL_collate_fn",
+  "loss_name": "loss_transmit",
+  "metrics_eval": "calculate_align_unif_metrics",
+  "loss_beta": 30,
+  "max_epoch": 20,
+  "learner": "Adam",
+  "learning_rate": 1e-4,
+  "lr_weight_decay": 1e-4,
+  "lr_eps": 1e-8,
+  "patience": 10,
+  "num_epochs": 50,
+  "num_runs": 1
+}
