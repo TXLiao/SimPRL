@@ -49,7 +49,17 @@ python .\main.py --task reg_finetune --model MLP_CLS --mode train --dataset chen
 
 ## Citation
 ```
-Coming soon.
+@ARTICLE{SimPRL,
+  author={Liao, Tianxi and Ta, Xuxiang and Xu, Yi and Han, Liangzhe and Sun, Leilei and Lv, Weifeng},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={SimPRL: A Simple Contrastive Learning for Path Representation Learning by Joint GPS Trajectories and Road Paths}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-14},
+  keywords={Trajectory;Roads;Global Positioning System;Contrastive learning;Representation learning;Vectors;Training;Estimation;Imputation;Transforms;Data-based approaches;smart cities;road transportation;self-supervised representation learning},
+  doi={10.1109/TITS.2025.3629800}}
+
 ```
 
 ## Acknowledgments
