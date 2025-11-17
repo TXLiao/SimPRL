@@ -1,7 +1,7 @@
 
 Source code of the proposed method SimPRL in the paper "SimPRL: A Simple Contrastive Learning for Path Representation Learning by Joint GPS Trajectories and Road Paths" in IEEE TITS.
 
-If there are any questions, please start a question in Github. Or just contact the author email (if the response has delays). 
+If there are any questions, please start a question in Github. Or just contact the author via email (if the response has delays). 
 ## Installation
 
 Install dependencies:
@@ -14,7 +14,7 @@ Install dependencies:
 ### Download the Dataset and Model weights
 Please take the datasets (folder name`./processed_data`) and model weights (folder name `./repository`) from the [Google Drive](https://drive.google.com/file/d/1mWk4D33Q59XJYwVAtP3ZAgR_Ni6eYR0b/view?usp=drive_link) or [Baidu Cloud](https://pan.baidu.com/s/18s3Sqrip7o4jabvnGZzKRA?pwd=icrx) (password：icrx) into the root directory of the project.
 
-Note: The datasets are sourced from publicly available datasets and is intended solely for research and educational purposes. If there are any copyright issues or concerns, please contact the author for removal.
+Note: The datasets are sourced from publicly available datasets and intended solely for research and educational purposes. If there are any copyright issues or concerns, please contact the author for removal.
 
 
 ## Project Structure
